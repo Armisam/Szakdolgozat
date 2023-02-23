@@ -1,0 +1,19 @@
+<table>
+    <caption>Bakancslista</caption>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>felhasználóID</th>
+            <th>Leírás</th>
+            <th>Teljesítve(Igen/Nem)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let feladat of aktualisOldalElemek">
+            <td>{{feladat.id}}</td>
+            <td>{{feladat.userId}}</td>
+            <td>{{feladat.title}}</td>
+            <td>{{feladat.completed ? "Igen" : "Nem"}}</td>
+        </tr>
+    </tbody>
+</table>

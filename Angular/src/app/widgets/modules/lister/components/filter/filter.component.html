@@ -1,0 +1,20 @@
+<h1>Listázó</h1>
+    <fieldset>
+        <legend>Szűrés</legend>
+
+        <label for="ID">ID: </label>
+        <input [(ngModel)]="id" type="number" id="ID" min="1" max="200" step="1" value="1">
+
+        <label for="FelhasznaloID">felhasználóID: </label>
+        <input [(ngModel)]="felhasznaloID" type="number" id="FelhasznaloID" min="1" max="200" step="1" value="1">
+
+        <label for="Leiras">Leírás: </label>
+        <input [(ngModel)]="leiras" type="search" id="Leiras">
+
+        <label for="Teljesitve">Teljesítve: </label>
+        <input [(ngModel)]="teljesitve" type="checkbox" id="Teljesitve">
+
+        <br>
+
+        <button type="button" (click)="szurogombKattintas()">Szűrés</button>
+    </fieldset>

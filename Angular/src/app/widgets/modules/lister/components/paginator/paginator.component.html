@@ -1,0 +1,12 @@
+<button (click)="visszagombKattintas()" [disabled]="aktualisOldalszam == 1">Vissza</button>
+<span>{{ aktualisOldalszam }} / {{ maxOldal }}</span>
+<button (click)="tovabbgombKattintas()" [disabled]="aktualisOldalszam == maxOldal">Tovább</button>
+
+<br>
+
+<span>Oldalméret:</span>
+<select [(ngModel)]="oldalmeret" (change)="oldalMeretvaltoztatas()">
+    <option selected="selected">5</option>
+    <option>10</option>
+    <option>20</option>
+</select>
