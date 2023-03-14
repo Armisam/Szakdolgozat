@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, Input, ViewChild } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { FilterComponent } from './components/filter/filter.component';
 import { PaginatorComponent } from './components/paginator/paginator.component';
 
