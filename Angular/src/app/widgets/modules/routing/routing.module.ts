@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { RouterModule, Routes, RouterLink } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
 import { RoutingComponent } from './routing.component';
 import { FooldalComponent } from './components/fooldal/fooldal.component';
