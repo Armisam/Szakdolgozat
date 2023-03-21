@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LayoutModule } from './widgets/modules/layout/layout.module';
 import { ListerModule } from './widgets/modules/lister/lister.module';
+import { RoutingModule } from './widgets/modules/routing/routing.module';
 
 const Widgets = [
   ListerModule,
-  LayoutModule
+  LayoutModule,
+  RoutingModule
 ];
 
 @NgModule({

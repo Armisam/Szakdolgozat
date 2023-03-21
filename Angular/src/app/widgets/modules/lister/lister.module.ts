@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { ListerComponent } from './lister.component';
-import { TableGeneratorComponent } from './components/table-generator/table-generator.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 
+import { TableGeneratorComponent } from './components/table-generator/table-generator.component';
 import { PaginatorComponent } from './components/paginator/paginator.component';
 import { FilterComponent } from './components/filter/filter.component';
 
